@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "robotframework-archivelibrary"
+version = "0.4.1"
+description = "Robot Framework keyword library for handling ZIP files."
+authors = ["Bulkan Savun Evcimen <bulkan@gmail.com>"]
+maintainers = ["Luca Giovenzana <luca@giovenzana.org>"]
+repository = "http://github.com/bulkan/robotframework-archivelibrary"
+license = "Public Domain"
+keywords = ["robotframework", "testing", "automation", "zip", "files", "compressed"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: Public Domain",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Testing"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+robotframework = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+six = "*"
+coverage = "*"
+flake8 = "*"
+mock = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
