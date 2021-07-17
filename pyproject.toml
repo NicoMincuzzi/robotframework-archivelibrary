@@ -7,6 +7,9 @@ maintainers = ["Luca Giovenzana <luca@giovenzana.org>"]
 repository = "http://github.com/bulkan/robotframework-archivelibrary"
 license = "Public Domain"
 keywords = ["robotframework", "testing", "automation", "zip", "files", "compressed"]
+packages = [
+    { include = "ArchiveLibrary" },
+]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "License :: Public Domain",
